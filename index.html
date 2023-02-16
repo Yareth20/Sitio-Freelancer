@@ -101,43 +101,45 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, quos pariatur! Atque corporis, alias quam illo officiis illum neque sequi accusantium voluptatibus! Mollitia voluptate porro, perferendis placeat deleniti quas explicabo?</p>
             </section>
         </div> <!--.servicios-->
-    </main>
-    
+        
         <section>
             <h2>Contacto</h2>
-
-            <form action="">
+            
+            <form class="formulario">
                 <fieldset>
                     <legend>Contactános llenando este formulario</legend>
                     
-                    <div>
-                        <label for="">Nombre</label>
-                        <input type="text" placeholder="Tu nombre">
-                    </div>
-
-                    <div>
-                        <label for="">Teléfono</label>
-                        <input type="tel" placeholder="Tu telefono">
-                    </div>
-
-                    <div>
-                        <label for="">Correo</label>
-                        <input type="email" placeholder="Mail">
-                    </div>
-
-                    <div>
-                        <label for="">Mensaje</label>
-                        <textarea></textarea>
-                    </div>
-
-                    <div>
-                        <input type="submit" value="Enviar">
+                    <div class="contenedor-campos">
+                        <div class="campo">
+                            <label for="">Nombre</label>
+                            <input class="input-text" type="text" placeholder="Tu nombre">
+                        </div>
+                        
+                        <div class="campo">
+                            <label for="">Teléfono</label>
+                            <input class="input-text" type="tel" placeholder="Tu telefono">
+                        </div>
+                        
+                        <div class="campo">
+                            <label for="">Correo</label>
+                            <input class="input-text" type="email" placeholder="Mail">
+                        </div>
+                        
+                        <div class="campo">
+                            <label for="">Mensaje</label>
+                            <textarea class="input-text"></textarea>
+                        </div>
+                    </div> <!-- Contenedor de los campos-->
+                    
+                    <div class="alinear-derecha flex">
+                        <input class="boton w-sm-100" type="submit" value="Enviar">
                     </div>
                     
                 </fieldset>
             </form>
         </section>
-        <footer>
+    </main>
+        <footer class="footer">
             <p>Todos los derechos reservados. Yareth San Miguel, Freelancer.</p>
         </footer>
     
